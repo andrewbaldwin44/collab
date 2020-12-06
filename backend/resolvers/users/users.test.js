@@ -33,6 +33,6 @@ describe("Users Resolvers", () => {
     expect(code).toEqual("200");
     expect(success).toBe(true);
     expect(name).toEqual("Alright");
-    expect(email).toEqual("freddy@notkreuger.com");
+    expect(email).toEqual("freddy@nootkreuger.com");
   });
 });
