@@ -10,7 +10,6 @@ const resolvers = {
 
   Mutation: {
     ...UsersResolver,
-  },
-};
-
-module.exports = resolvers;
+  }
+}
+module.exports = resolvers
