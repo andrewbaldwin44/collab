@@ -10,6 +10,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+      env:
+        FAUNA_DB: ${{ secrets.FAUNA_DB }}
       - run: npm ci
       - run: npm run install:all
       - run: npm run test
